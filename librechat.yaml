@@ -20,3 +20,7 @@ mcpServers:
     type: streamable-http
     url: https://librechat-pandoc-mcp-production.up.railway.app/mcp
     timeout: 60000
+  asana:
+    type: sse
+    url: https://mcp-server-asana-production-ece2.up.railway.app/sse
+    timeout: 60000
