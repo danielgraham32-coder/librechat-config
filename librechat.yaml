@@ -1,0 +1,17 @@
+# LibreChat Configuration File
+# Documentation: https://www.librechat.ai/docs/configuration/librechat_yaml
+
+version: 1.2.1
+cache: true
+
+# Enable Agents endpoint with tool capabilities
+endpoints:
+  agents:
+    capabilities:
+      - "execute_code"
+      - "file_search"
+      - "actions"
+      - "tools"
+
+# MCP Servers will be added here in the next step
+mcpServers: {}
